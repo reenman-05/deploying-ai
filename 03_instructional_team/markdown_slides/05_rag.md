@@ -29,9 +29,16 @@ $ echo "Data Sciences Institute"
 2. Retrieval algorithms span a spectrum from exact keyword matching (TF-IDF, BM25) to semantic embedding search, with hybrid approaches often giving the best accuracy-speed trade-off.
 3. RAG system quality is bounded by retriever quality: a good generator cannot compensate for poorly retrieved context.
 4. Chunking strategy materially affects retrieval: chunk size, overlap, and splitting method must be tuned per use case rather than defaulted.
+
+
+---
+
+## Main Points (cont.)
+
 5. Query rewriting and contextual enrichment address two of the most common retrieval failures: ambiguous queries and context-poor chunks.
 6. Retrieval evaluation requires its own metrics (precision, recall, NDCG) separate from end-to-end generation quality.
 7. RAG is not limited to text: multimodal and tabular RAG extend the pattern to images, audio, and structured datasets.
+
 
 ---
 
@@ -216,6 +223,12 @@ $ echo "Data Sciences Institute"
 2. Retrieval algorithms span a spectrum from exact keyword matching (TF-IDF, BM25) to semantic embedding search, with hybrid approaches often giving the best accuracy-speed trade-off.
 3. RAG system quality is bounded by retriever quality: a good generator cannot compensate for poorly retrieved context.
 4. Chunking strategy materially affects retrieval: chunk size, overlap, and splitting method must be tuned per use case rather than defaulted.
+
+
+---
+
+## Main Points (cont.)
+
 5. Query rewriting and contextual enrichment address two of the most common retrieval failures: ambiguous queries and context-poor chunks.
 6. Retrieval evaluation requires its own metrics (precision, recall, NDCG) separate from end-to-end generation quality.
 7. RAG is not limited to text: multimodal and tabular RAG extend the pattern to images, audio, and structured datasets.
